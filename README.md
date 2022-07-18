@@ -27,6 +27,8 @@ SW Expert Academy Code Problem solved with java
 
 새로운 메소드를 정의하여 사용할때는 `main`메소드 밖에 작성해야하고 인스턴스를 생성하지 않고 사용해야하기 때문에 `static`을 붙여줘야한다.
 
+배열을 정렬할 때는 `Arrays.sort(arr);`을 사용한다.
+
 ## D1
 - 1936
 - 2058
@@ -39,3 +41,6 @@ SW Expert Academy Code Problem solved with java
  - 1979
  - 1989
  - 2001
+
+## D3
+ - 1860
