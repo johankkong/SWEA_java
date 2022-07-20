@@ -1,12 +1,12 @@
 package D3._1860;
 
-//import java.io.FileInputStream;
+import java.io.FileInputStream;
 import java.util.Arrays;
 import java.util.Scanner;
 
 public class Solution {
 	public static void main(String[] args) throws Exception {
-	//	System.setIn(new FileInputStream("src/D3/_1860/input.txt"));
+		System.setIn(new FileInputStream("src/D3/_1860/input.txt"));
 		Scanner sc = new Scanner(System.in);
 		int T = sc.nextInt();
 		for (int tc = 1; tc <= T; tc++) {
