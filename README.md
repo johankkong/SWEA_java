@@ -38,6 +38,7 @@ SW Expert Academy Code Problem solved with java
 
 ## D2
  - 1946
+ - 1954
  - 1959
  - 1961
  - 1979
