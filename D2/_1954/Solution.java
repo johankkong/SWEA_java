@@ -12,22 +12,21 @@ public class Solution {
 			int[] dr = { 0, 1, 0, -1 };
 			int[] dc = { 1, 0, -1, 0 };
 			int r = 0;
-			int c = 0;
+			int c = -1;
 			int d = 0;
 			int cnt = 1;
 			for (int i = 0; i < n; i++) {
-				for(int j = 1, time = 1; j < 2 * (n - i); j++, time++) {
-					if(time == n - i + 1) {
-						time = 1;
+				for(int j = 1; j < 2 * (n - i); j++) {
+					if(j == n - i + 1) {
 						if (d == 3) {
 							d = 0;
 						} else {
 							d++;
 						}
 					}
-					r = r + dr[d] * time;
-					c = c + dc[d] * time;
-					arr[r][c] = cnt++;	
+					r = r + dr[d];
+					c = c + dc[d];
+					arr[r][c] = cnt++;
 				}
 				if (d == 3) {
 					d = 0;
@@ -35,7 +34,14 @@ public class Solution {
 					d++;
 				}
 			}
-			System.out.println(arr[1][0]);
+			System.out.println("#"+tc);
+			for (int i=0;i<n;i++) {
+				for (int j=0;j<n;j++) {
+					System.out.print(arr[i][j]+" ");
+				}
+				System.out.println();
+			}
 		}
+		sc.close();
 	}
 }
