@@ -39,6 +39,7 @@ SW Expert Academy Code Problem solved with java
 - 2063
 
 ## D2
+ - 1926
  - 1940
  - 1945
  - 1946
