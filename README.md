@@ -54,4 +54,5 @@ SW Expert Academy Code Problem solved with java
 ## D3
  - 1860
  - 2805
+ - 4789
  - 6485
