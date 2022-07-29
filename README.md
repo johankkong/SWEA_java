@@ -35,6 +35,10 @@ SW Expert Academy Code Problem solved with java
 
 현재 상황을 저장하는 변수 `tmp`를 만들어 변화에 따라 변경해주면 용이하게 사용할 수 있다.
 
+델타탐색 - 행과 열의 인덱스를 1씩 변화시키는 `{1, -1, 0, 0}` 등의 배열을 만들어 방향을 지정하고 더해주는 횟수를 조절하여 탐색을 용이하게 할 수 있다.
+
+---
+
 ## D1
 - 1936
 - 2058
@@ -54,6 +58,7 @@ SW Expert Academy Code Problem solved with java
  - 1979
  - 1989
  - 2001
+ - 12712
 
 ## D3
  - 1220
