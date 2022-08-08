@@ -37,6 +37,8 @@ SW Expert Academy Code Problem solved with java
 
 델타탐색 - 행과 열의 인덱스를 1씩 변화시키는 `{1, -1, 0, 0}` 등의 배열을 만들어 방향을 지정하고 더해주는 횟수를 조절하여 탐색을 용이하게 할 수 있다.
 
+두개의 수 중 더 큰 값 혹은 더 작은 값을 알아내기 위해 `Math.max(a, b)`혹은 `Math.min(a, b)`를 사용할 수 있다.
+
 ---
 
 ## D1
@@ -61,6 +63,7 @@ SW Expert Academy Code Problem solved with java
  - 12712
 
 ## D3
+ - 1206
  - 1220
  - 1860
  - 2805
