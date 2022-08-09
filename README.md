@@ -29,6 +29,8 @@ SW Expert Academy Code Problem solved with java
 
 배열을 정렬할 때는 `Arrays.sort(arr);`을 사용한다.
 
+`List`를 정렬하고 싶다면, `Collections.sort(list)`를 이용한다.
+
 2차원 배열에서 특정영역에 접근하고 싶을 때 규칙을 찾아 `start`, `mid`, `end` 등의 변수를 이용한다.
 
 상황에 따라 다르겠지만, 주어진 범위내에서의 조건을 부여해야하는 경우, 배열을 사용하는 것이 유리할 수 있다.
@@ -64,6 +66,7 @@ SW Expert Academy Code Problem solved with java
 
 ## D3
  - 1206
+ - 1208
  - 1220
  - 1860
  - 2805
