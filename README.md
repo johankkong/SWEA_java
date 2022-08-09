@@ -49,6 +49,7 @@ SW Expert Academy Code Problem solved with java
 - 2063
 
 ## D2
+ - 1204
  - 1926
  - 1940
  - 1945
@@ -60,6 +61,7 @@ SW Expert Academy Code Problem solved with java
  - 1970
  - 1974
  - 1979
+ - 1984
  - 1989
  - 2001
  - 12712
