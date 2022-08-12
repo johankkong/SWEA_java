@@ -6,7 +6,7 @@ public class Solution {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		for(int tc= 1; tc<=10; tc++) {
-			int n = sc.nextInt();
+			tc = sc.nextInt();
 			String pt = sc.next();  //패턴
 			String text = sc.next(); //원문
 			
@@ -26,5 +26,6 @@ public class Solution {
 			
 			System.out.println("#"+tc+" "+result);
 		}
+		sc.close();
 	}
 }

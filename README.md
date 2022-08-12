@@ -43,6 +43,8 @@ SW Expert Academy Code Problem solved with java
 
 두개의 수 중 더 큰 값 혹은 더 작은 값을 알아내기 위해 `Math.max(a, b)`혹은 `Math.min(a, b)`를 사용할 수 있다.
 
+String 문자열을 char[] 배열로 바꾸고 싶다면 `문자열.toCharArray()`메소드를 이용한다. > 이를 이용하여 문자열로 주어진 2차원 데이터를 손쉽게 2차원 배열로 바꿀 수 있다.
+
 ---
 
 ## D1
@@ -73,6 +75,8 @@ SW Expert Academy Code Problem solved with java
  - 1208
  - 1209
  - 1213
+ - 1215
+ - 1216
  - 1220
  - 1860
  - 2805
