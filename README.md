@@ -72,6 +72,7 @@ SW Expert Academy Code Problem solved with java
  - 1206
  - 1208
  - 1209
+ - 1213
  - 1220
  - 1860
  - 2805
