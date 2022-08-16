@@ -45,6 +45,8 @@ SW Expert Academy Code Problem solved with java
 
 String 문자열을 char[] 배열로 바꾸고 싶다면 `문자열.toCharArray()`메소드를 이용한다. > 이를 이용하여 문자열로 주어진 2차원 데이터를 손쉽게 2차원 배열로 바꿀 수 있다.
 
+Stack클래스를 활용하여 괄호검사를 할 수 있다. `Stack<Character> stack = new Stack<>();`를 통해 스택을 선언.
+
 ---
 
 ## D1
@@ -87,3 +89,4 @@ String 문자열을 char[] 배열로 바꾸고 싶다면 `문자열.toCharArray(
 
 ## D4
  - 1210
+ - 5432
