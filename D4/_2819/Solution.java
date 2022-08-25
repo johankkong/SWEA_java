@@ -1,12 +1,12 @@
 package D4._2819;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.HashSet;
 import java.util.Scanner;
+import java.util.Set;
 
 public class Solution {
 	static int[][] arr;
-	static List<String> list;
+	static Set<String> set;
 	static StringBuilder sb;
 
 	public static void main(String[] args) {
@@ -14,7 +14,7 @@ public class Solution {
 		int T = sc.nextInt();
 		for (int tc = 1; tc <= T; tc++) {
 			arr = new int[4][4];
-			list = new ArrayList<>();
+			set = new HashSet<>();
 			for (int i = 0; i < 4; i++) {
 				for (int j = 0; j < 4; j++) {
 					arr[i][j] = sc.nextInt();
@@ -26,7 +26,7 @@ public class Solution {
 					subset(0, i, j);
 				}
 			}
-			System.out.println("#" + tc + " " + list.size());
+			System.out.println("#" + tc + " " + set.size());
 		}
 	}
 
@@ -38,8 +38,7 @@ public class Solution {
 		if (index == 7) {
 			if (sb.length() == 7) {
 				String temp = sb.toString();
-				if (!list.contains(temp))
-					list.add(temp);
+				set.add(temp);
 			}
 			return;
 		}
