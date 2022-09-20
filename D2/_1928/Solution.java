@@ -25,7 +25,7 @@ public class Solution {
 				code[idx--] = num % 2;
 				num /= 2;
 			}
-			System.out.println(code.);
+			System.out.println(code.length);
 		}
 	}
 }
