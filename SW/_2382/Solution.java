@@ -55,24 +55,24 @@ public class Solution {
 							same.add(k);
 						}
 					}
-					System.out.println(same);
 					//가장 많은 수의 군집을 찾는다.
 					if(!same.isEmpty()) {
 						int sum = curr.num;
 						int max = curr.num;
 						int idx = j;
 						for (Integer s : same) {
-							int curNum = list.get((int)s).num;
+							int curNum = list.get(s).num;
 							sum += curNum;
 							if(max < curNum) {
-								idx = (int)s;
+								idx = s;
 								max = curNum;
 							}
 						}
 						curr.num = sum;
 						curr.dir = list.get(idx).dir;
+						int cnt = 0;
 						for (Integer s : same) {
-							list.remove((int)s);
+							list.remove((int)s - cnt++);
 						}
 						same.clear();
 					}
@@ -103,5 +103,12 @@ public class Solution {
 			num = Integer.parseInt(st.nextToken());
 			dir = (byte) (Byte.parseByte(st.nextToken()) - 1);
 		}
+
+		@Override
+		public String toString() {
+			return "[" + row + ", " + col + "]";
+		}
+		
+		
 	}
 }
